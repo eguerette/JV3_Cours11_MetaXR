@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.learnxr.core": {
+      "version": "file:C:/Users/2175312/Downloads/com.learnxr.core-master",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.meta.xr.mrutilitykit": {
       "version": "69.0.1",
       "depth": 1,
