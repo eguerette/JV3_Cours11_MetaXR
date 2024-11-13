@@ -17,7 +17,7 @@ public class MeasureTapeFeature : MonoBehaviour
      [SerializeField] private Transform leftControllerTapeArea;
     [SerializeField] private Transform rightControllerTapeArea;
 
-    private List<GameObject> savedTapeLines = new();
+    private List<MeasuringTape> savedTapeLines = new();
     private TextMeshPro lastMeasurmentInfo;
     private LineRenderer lastTapeLinerenderer;
     private OVRInput.Controller? currentController;

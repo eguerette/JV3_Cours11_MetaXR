@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class MeasuringTape : MonoBehaviour
+public class MeasuringTape
 {
-
     public GameObject TapeLine;
     public TextMeshPro TapeInfo;
     public static double MetersToInches(double meters) => meters * 39.3701;
